@@ -6,3 +6,6 @@
 
 # import csv
 */1 * * * * curl -i http://localhost/import-csv.php >> /var/log/cron.log 2>&1
+
+# update segments
+*/15 * * * * curl -i http://localhost/update-segments.php >> /var/log/cron.log 2>&1
