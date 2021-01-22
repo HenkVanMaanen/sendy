@@ -114,7 +114,7 @@ _main() {
     log_info "Starting cron"
     exec "$@"
   else
-    log_info "Comamnd-line override.  Executing: $@"
+    log_info "Command-line override.  Executing: $@"
     exec "$@"
   fi
 }
